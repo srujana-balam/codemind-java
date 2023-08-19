@@ -8,9 +8,10 @@ public class sum{
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
-        for(int i=0;i<n;i++){
-            sum=sum+a[i];
+        for(int b: a){
+            sum+=b;
         }
+        
         System.out.println(sum);
     }
 }
