@@ -6,7 +6,7 @@ public class capacity{
         t=sc.nextInt();
         s=sc.nextInt();
         b=sc.nextInt();
-        int n=t*s*b;
+        int n=(2*t*s*b*512)/1024;
         System.out.printf("%d KB",n);
     }
 }
